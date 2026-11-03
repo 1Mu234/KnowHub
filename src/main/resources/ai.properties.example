@@ -1,0 +1,17 @@
+# =========================================================
+# KnowHub AI 大模型配置（模板）
+# 使用方法：复制本文件为 ai.properties，填入你的 API Key
+# 默认使用硅基流动（SiliconFlow）免费额度
+#   1. 注册：https://cloud.siliconflow.cn
+#   2. 创建 API Key（免费用户有每日免费额度）
+#   3. 把 Key 填到 ai.apiKey
+# =========================================================
+
+# Chat Completions 接口地址
+ai.baseUrl=https://api.siliconflow.cn/v1/chat/completions
+
+# API Key（必填）
+ai.apiKey=
+
+# 模型名
+ai.model=Qwen/Qwen2.5-7B-Instruct
